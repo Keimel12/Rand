@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdbool.h>
 
-#define MAX 6
+#define MAX 50
 #define EXIT 5
 
 /*	Colas. Representar e implementar una Cola de 100 ítems de
