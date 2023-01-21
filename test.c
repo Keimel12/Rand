@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdbool.h>
 
-#define MAX 50
+#define MAX 6
 #define EXIT 5
 
 /*	Colas. Representar e implementar una Cola de 100 ítems de
@@ -187,7 +187,7 @@ bool remover()
 	{
 		if(cola_vacia() == false)
 		{
-			for (int i = 0; i < cont; i++)
+			for (int i = 0; i < cant_elementos_cola; i++)
 			{
 				strcpy(_vehiculo[i].placa, _vehiculo[i + 1].placa);
 				strcpy(_vehiculo[i].modelo, _vehiculo[i + 1].modelo);
