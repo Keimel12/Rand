@@ -47,8 +47,6 @@ void *Subprocess()
 				// Piensa en una forma mas optima :/
 				exit(1);
 			}
-
-			printf("%d\n", sec);
 		}
 
 		return NULL;
